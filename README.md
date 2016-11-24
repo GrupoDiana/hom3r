@@ -5,3 +5,4 @@ homer is a novel 3D viewer designed to manage complex industrial product models.
 hom3r is an open source software, available to download. If you integrate hom3r in your web-site you must give appropriate credit, provide a link to the license, and indicate if changes were made. 
 
 Learn more in our web page: http://proyectos.diana.uma.es/hom3r/
+Use/see our free online demo http://proyectos.diana.uma.es/hom3r/demo/demo.html
