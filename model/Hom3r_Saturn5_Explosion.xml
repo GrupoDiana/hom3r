@@ -1,0 +1,328 @@
+<Product>
+ 	<ProductTree>
+		<Node name="root">
+			<ExplosionInfo>
+				<ExplodeX>0.0</ExplodeX>
+				<ExplodeY>0.0</ExplodeY>
+				<ExplodeZ>0.0</ExplodeZ>
+				<ExplodeMin>0.0</ExplodeMin>
+				<ExplodeMax>0.0</ExplodeMax>
+			</ExplosionInfo>
+			
+			<Children>	<!-- root -->	
+				<Node name="First Stage">
+					<ExplosionInfo>
+						<ExplodeX>0.0</ExplodeX>
+						<ExplodeY>0.0</ExplodeY>
+						<ExplodeZ>0.0</ExplodeZ>
+						<ExplodeMin>0.0</ExplodeMin>
+						<ExplodeMax>0.0</ExplodeMax>
+					</ExplosionInfo>
+					
+					<Children> <!-- root/First Stage -->
+						<Node name="F1 Engines">
+							<ExplosionInfo>
+								<ExplodeX>-1.0</ExplodeX>
+								<ExplodeY>0.0</ExplodeY>
+								<ExplodeZ>0.0</ExplodeZ>
+								<ExplodeMin>0.0</ExplodeMin>
+								<ExplodeMax>19.0</ExplodeMax>
+							</ExplosionInfo>
+														
+							<GameObjects>
+								<GO>F1-AuxPumps</GO>
+								<GO>F1-CombustionChamber</GO>
+								<GO>F1-CoolantLines</GO>
+								<GO>F1-EngineBell</GO>
+								<GO>F1-FuelInlet</GO>
+								<GO>F1-FuelLines</GO>
+								<GO>F1-GimbalActuator</GO>
+								<GO>F1-GimbalArms</GO>
+								<GO>F1-GimbalMounts</GO>
+								<GO>F1-GimbalPiston</GO>
+								<GO>F1-HMU</GO>
+								<GO>F1-Nozzle</GO>
+								<GO>F1-NozzleInterior</GO>
+								<GO>F1-TurbineManifold</GO>
+								<GO>F1-Turbopump</GO>
+							</GameObjects>
+						</Node> <!-- root/First Stage/F1 Engines -->
+						
+						<Node name="S-IC">
+							<ExplosionInfo>
+								<ExplodeX>-1.0</ExplodeX>
+								<ExplodeY>0.0</ExplodeY>
+								<ExplodeZ>0.0</ExplodeZ>
+								<ExplodeMin>0.0</ExplodeMin>
+								<ExplodeMax>16.0</ExplodeMax>
+							</ExplosionInfo>									
+										
+ 							<BlockedBy>
+								<Node>F1 Engines</Node>
+							</BlockedBy>
+										
+							<GameObjects>
+								<GO>S-IC-Body</GO>
+								<GO>S-IC-Fins</GO>
+								<GO>S-IC-Griblies</GO>
+								<GO>S-IC-Heatshield</GO>
+								<GO>S-IC-LaunchClamps</GO>
+								<GO>S-IC-LowerSkirt</GO>
+								<GO>S-IC-Ribs</GO>
+								<GO>S-IC-Stringers</GO>
+								<GO>S-IC-Tank</GO>
+								<GO>S-IC-UpperSkirt</GO>
+								<!-- SIC -->
+								<GO>SIC-Avionics</GO>
+								<GO>SIC-Interior</GO>
+							</GameObjects>
+						</Node> <!-- root/First Stage/S-IC -->
+						
+						<Node name="S1 InterStage">
+							<ExplosionInfo>
+								<ExplodeX>-1.0</ExplodeX>
+								<ExplodeY>0.0</ExplodeY>
+								<ExplodeZ>0.0</ExplodeZ>
+								<ExplodeMin>0.0</ExplodeMin>
+								<ExplodeMax>14.0</ExplodeMax>
+							</ExplosionInfo>									
+										
+ 							<BlockedBy>
+								<Node>S-IC</Node>
+							</BlockedBy>
+										
+							<GameObjects>
+								<GO>S1InterStage-Body</GO>
+								<GO>S1InterStage-Interior</GO>
+								<GO>S1InterStage-Ribs</GO>
+								<GO>S1InterStage-Stringers</GO>
+								<GO>S1InterStage-ThrusterFairings</GO>
+								<GO>S1InterStage-ThrusterNozzles</GO>
+								<GO>S1InterStage-Thrusters</GO>
+							</GameObjects>
+						</Node> <!-- root/First Stage/S1 InterStage -->					
+					</Children> <!-- root/First Stage -->
+				</Node> <!-- root/First Stage -->
+				
+				<Node name="Apollo Spacecraft">
+					<ExplosionInfo>
+						<ExplodeX>0.0</ExplodeX>
+						<ExplodeY>0.0</ExplodeY>
+						<ExplodeZ>0.0</ExplodeZ>
+						<ExplodeMin>0.0</ExplodeMin>
+						<ExplodeMax>0.0</ExplodeMax>
+					</ExplosionInfo>					
+					
+					<Children> <!-- root/Apollo Spacecraft -->									
+						<Node name="CSM">
+							<ExplosionInfo>
+								<ExplodeX>1.0</ExplodeX>
+								<ExplodeY>0.0</ExplodeY>
+								<ExplodeZ>0.0</ExplodeZ>
+								<ExplodeMin>0.0</ExplodeMin>
+								<ExplodeMax>26.0</ExplodeMax>
+							</ExplosionInfo>
+										
+ 							<BlockedBy>
+								<Node>LES</Node>
+							</BlockedBy>
+										
+							<GameObjects>
+								<GO>CSM-BPS</GO>
+								<GO>CSM-Base</GO>
+								<GO>CSM-Body</GO>
+								<GO>CSM-Engine</GO>
+								<GO>CSM-Griblies</GO>
+								<GO>CSM-Radiators</GO>
+								<GO>CSM-ThrustStructure</GO>
+								<GO>CSM-Window</GO>
+								<!-- LES -->
+								<GO>LES-Frame</GO>
+								<GO>LES-Griblies</GO>
+								<GO>LES-Int</GO>
+								<GO>LES-Mount</GO>
+								<GO>LES-Rockets</GO>
+								<GO>LES-Tower</GO>
+							</GameObjects>
+						</Node> <!-- root/Apollo Spacecraft/CSM -->					
+					</Children> <!-- root/Apollo Spacecraft -->
+				</Node> <!-- root/Apollo Spacecraft -->						
+				
+				<Node name="Third Stage">
+					<ExplosionInfo>
+						<ExplodeX>0.0</ExplodeX>
+						<ExplodeY>0.0</ExplodeY>
+						<ExplodeZ>0.0</ExplodeZ>
+						<ExplodeMin>0.0</ExplodeMin>
+						<ExplodeMax>0.0</ExplodeMax>
+					</ExplosionInfo>				
+					
+					<Children> <!-- root/Third Stage -->
+						<Node name="ASA">
+							<ExplosionInfo>
+								<ExplodeX>1.0</ExplodeX>
+								<ExplodeY>0.0</ExplodeY>
+								<ExplodeZ>0.0</ExplodeZ>
+								<ExplodeMin>0.0</ExplodeMin>
+								<ExplodeMax>18.0</ExplodeMax>
+							</ExplosionInfo>
+											
+							<BlockedBy>
+								<Node>CSM</Node>
+							</BlockedBy>
+ 											
+							<GameObjects>			
+								<GO>ASA-Fairing</GO>
+								<GO>ASA-Griblies</GO>
+								<GO>ASA-Interior</GO>
+							</GameObjects>
+						</Node> <!-- root/Third Stage/ASA -->
+						
+						<Node name="S-IVB">
+							<ExplosionInfo>
+								<ExplodeX>1.0</ExplodeX>
+								<ExplodeY>0.0</ExplodeY>
+								<ExplodeZ>0.0</ExplodeZ>
+								<ExplodeMin>0.0</ExplodeMin>
+								<ExplodeMax>16.0</ExplodeMax>
+							</ExplosionInfo>
+						
+ 							<BlockedBy>
+								<Node>ASA</Node>
+							</BlockedBy>
+						
+							<GameObjects>
+								<GO>S-IVB-APS</GO>
+								<GO>S-IVb-Body</GO>
+								<GO>S-IVB-Griblies</GO>
+								<GO>S-IVB-Griblies-C</GO>
+								<GO>S-IVb-InnerGriblies</GO>
+								<GO>S-IVb-Interior</GO>
+								<GO>S-IVB-Ribs</GO>
+								<GO>S-IVb-Stringers</GO>
+								<GO>S-IVB-Tank</GO>
+								<GO>S-IVB-TankRear</GO>
+								<GO>S-IVB-ThrustStructure</GO>
+							</GameObjects>
+						</Node> <!-- root/Third Stage/S-IVB -->
+						
+						<Node name="S3 J2 Engine">
+							<ExplosionInfo>
+								<ExplodeX>1.0</ExplodeX>
+								<ExplodeY>0.0</ExplodeY>
+								<ExplodeZ>0.0</ExplodeZ>
+								<ExplodeMin>0.0</ExplodeMin>
+								<ExplodeMax>14.0</ExplodeMax>
+							</ExplosionInfo>
+						
+ 							<BlockedBy>
+								<Node>S-IVB</Node>
+							</BlockedBy>
+						
+							<GameObjects>
+								<GO>S-IVB-J2-CombustionChamber</GO>
+								<GO>S-IVB-J2-ControlPackage</GO>
+								<GO>S-IVB-J2-CoolantLines</GO>
+								<GO>S-IVB-J2-EngineBell</GO>
+								<GO>S-IVB-J2-FuelLines</GO>
+								<GO>S-IVB-J2-Interior</GO>
+								<GO>S-IVB-J2-Nozzle</GO>
+								<GO>S-IVB-J2-StartTank</GO>
+								<GO>S-IVB-J2-TurbineExhaust</GO>
+								<GO>S-IVB-J2-TurbineManifold</GO>
+								<GO>S-IVB-J2-TurboPumps</GO>
+								<GO>S-IVB-J2-WiringHarness</GO>
+							</GameObjects>
+						</Node> <!-- root/Third Stage/J2 Engine -->
+					</Children> <!-- root/Third Stage -->
+				</Node> <!-- root/Third Stage -->
+				
+				<Node name="Second Stage">
+					<ExplosionInfo>
+						<ExplodeX>0.0</ExplodeX>
+						<ExplodeY>0.0</ExplodeY>
+						<ExplodeZ>0.0</ExplodeZ>
+						<ExplodeMin>0.0</ExplodeMin>
+						<ExplodeMax>0.0</ExplodeMax>
+					</ExplosionInfo>
+					
+					<Children> <!-- root/Second Stage -->
+						<Node name="S2 J2 Engine">
+							<ExplosionInfo>
+								<ExplodeX>-1.0</ExplodeX>
+								<ExplodeY>0.0</ExplodeY>
+								<ExplodeZ>0.0</ExplodeZ>
+								<ExplodeMin>0.0</ExplodeMin>
+								<ExplodeMax>3.0</ExplodeMax>
+							</ExplosionInfo>
+											
+							<BlockedBy>
+								<Node>S1 InterStage</Node>
+							</BlockedBy>
+											
+							<GameObjects>
+								<GO>J2-CombustionChamber</GO>
+								<GO>J2-ControlPackage</GO>
+								<GO>J2-CoolantLines</GO>
+								<GO>J2-EngineBell</GO>
+								<GO>J2-FuelLines</GO>
+								<GO>J2-Interior</GO>
+								<GO>J2-Nozzle</GO>
+								<GO>J2-StartTank</GO>
+								<GO>J2-TurbineExhaust</GO>
+								<GO>J2-TurbineManifold</GO>
+								<GO>J2-TurboPumps</GO>
+								<GO>J2-WiringHarness</GO>
+							</GameObjects>
+						</Node> <!-- root/Second Stage/J2 Engine -->
+						
+						<Node name="S2 InterStage">
+							<ExplosionInfo>
+								<ExplodeX>1.0</ExplodeX>
+								<ExplodeY>0.0</ExplodeY>
+								<ExplodeZ>0.0</ExplodeZ>
+								<ExplodeMin>0.0</ExplodeMin>
+								<ExplodeMax>2.0</ExplodeMax>
+							</ExplosionInfo>
+						
+							<BlockedBy>
+								<Node>S3 J2 Engine</Node>
+							</BlockedBy>
+						
+							<GameObjects>
+								<GO>S2IntStage-Body</GO>
+								<GO>S2IntStage-Interior</GO>
+								<GO>S2IntStage-Ribs</GO>
+								<GO>S2IntStage-Stringers</GO>
+							</GameObjects>
+						</Node> <!-- root/Second Stage/S2 InterStage -->
+						
+						<Node name="SII">
+							<ExplosionInfo>
+								<ExplodeX>0.0</ExplodeX>
+								<ExplodeY>0.0</ExplodeY>
+								<ExplodeZ>0.0</ExplodeZ>
+								<ExplodeMin>0.0</ExplodeMin>
+								<ExplodeMax>0.0</ExplodeMax>
+							</ExplosionInfo>
+
+							<GameObjects>
+								<GO>SII-Body</GO>
+								<GO>SII-FuelLines</GO>
+								<GO>SII-Griblies</GO>
+								<GO>SII-Heatshield</GO>
+								<GO>SII-Interior</GO>
+								<GO>SII-Rear</GO>
+								<GO>SII-Ribs</GO>
+								<GO>SII-Stringers</GO>
+								<GO>SII-Struts</GO>
+								<GO>SII-Tank</GO>
+							</GameObjects>
+						</Node> <!-- root/Second Stage/SII -->
+					</Children> <!-- root/Second Stage -->
+				</Node> <!-- root/Second Stage -->
+				
+			</Children> <!-- root -->
+		</Node> <!-- root -->		
+ 	</ProductTree>
+ </Product>

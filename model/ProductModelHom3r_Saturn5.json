@@ -1,0 +1,738 @@
+{"productNode":[
+ {
+   "id": "1",
+   "parent": "#",
+   "text": "Saturn V",
+   "type": "node",
+   "special_node": false
+ },
+ {
+   "id": "1.1",
+   "parent": "1",
+   "text": "First Stage",
+   "type": "node",
+   "special_node": true
+ },
+ {
+   "id": "1.1.1",
+   "parent": "1.1",
+   "text": "F1 Engines",
+   "type": "leaf",
+   "special_node": false
+ },
+ {
+   "id": "1.1.2",
+   "parent": "1.1",
+   "text": "S-IC",
+   "type": "leaf",
+   "special_node": false
+ },
+ {
+   "id": "1.1.3",
+   "parent": "1.1",
+   "text": "S1 InterStage",
+   "type": "leaf",
+   "special_node": false
+ },
+ {
+   "id": "1.1.4",
+   "parent": "1.1",
+   "text": "SIC",
+   "type": "leaf",
+   "special_node": false
+ },
+ {
+   "id": "1.2",
+   "parent": "1",
+   "text": "Second Stage",
+   "type": "node",
+   "special_node": true
+ },
+ {
+   "id": "1.2.1",
+   "parent": "1.2",
+   "text": "J2 Engine",
+   "type": "leaf",
+   "special_node": false
+ },
+ {
+   "id": "1.2.2",
+   "parent": "1.2",
+   "text": "S2 InterStage",
+   "type": "leaf",
+   "special_node": false
+ },
+ {
+   "id": "1.2.3",
+   "parent": "1.2",
+   "text": "SII",
+   "type": "leaf",
+   "special_node": false
+ },
+ {
+   "id": "1.3",
+   "parent": "1",
+   "text": "Third Stage",
+   "type": "node",
+   "special_node": true
+ },
+ {
+   "id": "1.3.1",
+   "parent": "1.3",
+   "text": "ASA",
+   "type": "leaf",
+   "special_node": false
+ },
+ {
+   "id": "1.3.2",
+   "parent": "1.3",
+   "text": "S-IVB",
+   "type": "leaf",
+   "special_node": false
+ },
+ {
+   "id": "1.3.3",
+   "parent": "1.3",
+   "text": "J2 Engine",
+   "type": "leaf",
+   "special_node": false
+ },
+ {
+   "id": "1.4",
+   "parent": "1",
+   "text": "Apollo SpaceCraft",
+   "type": "node",
+   "special_node": true
+ },
+ {
+   "id": "1.4.1",
+   "parent": "1.4",
+   "text": "CSM",
+   "type": "leaf",
+   "special_node": false
+ },
+ {
+   "id": "1.4.2",
+   "parent": "1.4",
+   "text": "LES",
+   "type": "leaf",
+   "special_node": false
+ }
+],"productNodeGeometry":[
+ {
+   "id": 1,
+   "geometryfile": "model/saturn5.hom3r",
+   "geometryfiletype": "assetbundle",
+   "version": 1,
+   "geometryname": "Saturn V",
+   "active": true,
+   "position_x": 0,
+   "position_y": 0,
+   "position_z": 0,
+   "rotation_w": 0.7,
+   "rotation_x": 0,
+   "rotation_y": 0.7,
+   "rotation_z": 0
+ }
+],"areaNode":[
+ {
+   "id": "1.1.1.1",
+   "parent": "1.1.1",
+   "description": "F1-AuxPumps",
+   "meshname": "F1-AuxPumps"
+ },
+ {
+   "id": "1.1.1.2",
+   "parent": "1.1.1",
+   "description": "F1-CombustionChamber",
+   "meshname": "F1-CombustionChamber"
+ },
+ {
+   "id": "1.1.1.3",
+   "parent": "1.1.1",
+   "description": "F1-CoolantLines",
+   "meshname": "F1-CoolantLines"
+ },
+ {
+   "id": "1.1.1.4",
+   "parent": "1.1.1",
+   "description": "F1-EngineBell",
+   "meshname": "F1-EngineBell"
+ },
+ {
+   "id": "1.1.1.5",
+   "parent": "1.1.1",
+   "description": "F1-FuelInlet",
+   "meshname": "F1-FuelInlet"
+ },
+ {
+   "id": "1.1.1.6",
+   "parent": "1.1.1",
+   "description": "F1-FuelLines",
+   "meshname": "F1-FuelLines"
+ },
+ {
+   "id": "1.1.1.7",
+   "parent": "1.1.1",
+   "description": "F1-GimbalActuator",
+   "meshname": "F1-GimbalActuator"
+ },
+ {
+   "id": "1.1.1.8",
+   "parent": "1.1.1",
+   "description": "F1-GimbalArms",
+   "meshname": "F1-GimbalArms"
+ },
+ {
+   "id": "1.1.1.9",
+   "parent": "1.1.1",
+   "description": "F1-GimbalMounts",
+   "meshname": "F1-GimbalMounts"
+ },
+ {
+   "id": "1.1.1.10",
+   "parent": "1.1.1",
+   "description": "F1-GimbalPiston",
+   "meshname": "F1-GimbalPiston"
+ },
+ {
+   "id": "1.1.1.11",
+   "parent": "1.1.1",
+   "description": "F1-HMU",
+   "meshname": "F1-HMU"
+ },
+ {
+   "id": "1.1.1.12",
+   "parent": "1.1.1",
+   "description": "F1-Nozzle",
+   "meshname": "F1-Nozzle"
+ },
+ {
+   "id": "1.1.1.13",
+   "parent": "1.1.1",
+   "description": "F1-NozzleInterior",
+   "meshname": "F1-NozzleInterior"
+ },
+ {
+   "id": "1.1.1.14",
+   "parent": "1.1.1",
+   "description": "F1-TurbineManifold",
+   "meshname": "F1-TurbineManifold"
+ },
+ {
+   "id": "1.1.1.15",
+   "parent": "1.1.1",
+   "description": "F1-Turbopump",
+   "meshname": "F1-Turbopump"
+ },
+ {
+   "id": "1.1.2.1",
+   "parent": "1.1.2",
+   "description": "S-IC-Body",
+   "meshname": "S-IC-Body"
+ },
+ {
+   "id": "1.1.2.2",
+   "parent": "1.1.2",
+   "description": "S-IC-Fins",
+   "meshname": "S-IC-Fins"
+ },
+ {
+   "id": "1.1.2.3",
+   "parent": "1.1.2",
+   "description": "S-IC-Griblies",
+   "meshname": "S-IC-Griblies"
+ },
+ {
+   "id": "1.1.2.4",
+   "parent": "1.1.2",
+   "description": "S-IC-Heatshield",
+   "meshname": "S-IC-Heatshield"
+ },
+ {
+   "id": "1.1.2.5",
+   "parent": "1.1.2",
+   "description": "S-IC-LaunchClamps",
+   "meshname": "S-IC-LaunchClamps"
+ },
+ {
+   "id": "1.1.2.6",
+   "parent": "1.1.2",
+   "description": "S-IC-LowerSkirt",
+   "meshname": "S-IC-LowerSkirt"
+ },
+ {
+   "id": "1.1.2.7",
+   "parent": "1.1.2",
+   "description": "S-IC-Ribs",
+   "meshname": "S-IC-Ribs"
+ },
+ {
+   "id": "1.1.2.8",
+   "parent": "1.1.2",
+   "description": "S-IC-Stringers",
+   "meshname": "S-IC-Stringers"
+ },
+ {
+   "id": "1.1.2.9",
+   "parent": "1.1.2",
+   "description": "S-IC-Tank",
+   "meshname": "S-IC-Tank"
+ },
+ {
+   "id": "1.1.2.10",
+   "parent": "1.1.2",
+   "description": "S-IC-UpperSkirt",
+   "meshname": "S-IC-UpperSkirt"
+ },
+ {
+   "id": "1.1.3.1",
+   "parent": "1.1.3",
+   "description": "S1InterStage-Body",
+   "meshname": "S1InterStage-Body"
+ },
+ {
+   "id": "1.1.3.2",
+   "parent": "1.1.3",
+   "description": "S1InterStage-Interior",
+   "meshname": "S1InterStage-Interior"
+ },
+ {
+   "id": "1.1.3.3",
+   "parent": "1.1.3",
+   "description": "S1InterStage-Ribs",
+   "meshname": "S1InterStage-Ribs"
+ },
+ {
+   "id": "1.1.3.4",
+   "parent": "1.1.3",
+   "description": "S1InterStage-Stringers",
+   "meshname": "S1InterStage-Stringers"
+ },
+ {
+   "id": "1.1.3.5",
+   "parent": "1.1.3",
+   "description": "S1InterStage-ThrusterFairings",
+   "meshname": "S1InterStage-ThrusterFairings"
+ },
+ {
+   "id": "1.1.3.6",
+   "parent": "1.1.3",
+   "description": "S1InterStage-ThrusterNozzles",
+   "meshname": "S1InterStage-ThrusterNozzles"
+ },
+ {
+   "id": "1.1.3.7",
+   "parent": "1.1.3",
+   "description": "S1InterStage-Thrusters",
+   "meshname": "S1InterStage-Thrusters"
+ },
+ {
+   "id": "1.1.4.1",
+   "parent": "1.1.4",
+   "description": "SIC-Avionics",
+   "meshname": "SIC-Avionics"
+ },
+ {
+   "id": "1.1.4.2",
+   "parent": "1.1.4",
+   "description": "SIC-Interior",
+   "meshname": "SIC-Interior"
+ },
+ {
+   "id": "1.2.1.1",
+   "parent": "1.2.1",
+   "description": "J2-CombustionChamber",
+   "meshname": "J2-CombustionChamber"
+ },
+ {
+   "id": "1.2.1.2",
+   "parent": "1.2.1",
+   "description": "J2-ControlPackage",
+   "meshname": "J2-ControlPackage"
+ },
+ {
+   "id": "1.2.1.3",
+   "parent": "1.2.1",
+   "description": "J2-CoolantLines",
+   "meshname": "J2-CoolantLines"
+ },
+ {
+   "id": "1.2.1.4",
+   "parent": "1.2.1",
+   "description": "J2-EngineBell",
+   "meshname": "J2-EngineBell"
+ },
+ {
+   "id": "1.2.1.5",
+   "parent": "1.2.1",
+   "description": "J2-FuelLines",
+   "meshname": "J2-FuelLines"
+ },
+ {
+   "id": "1.2.1.6",
+   "parent": "1.2.1",
+   "description": "J2-Interior",
+   "meshname": "J2-Interior"
+ },
+ {
+   "id": "1.2.1.7",
+   "parent": "1.2.1",
+   "description": "J2-Nozzle",
+   "meshname": "J2-Nozzle"
+ },
+ {
+   "id": "1.2.1.8",
+   "parent": "1.2.1",
+   "description": "J2-StartTank",
+   "meshname": "J2-StartTank"
+ },
+ {
+   "id": "1.2.1.9",
+   "parent": "1.2.1",
+   "description": "J2-TurbineExhaust",
+   "meshname": "J2-TurbineExhaust"
+ },
+ {
+   "id": "1.2.1.10",
+   "parent": "1.2.1",
+   "description": "J2-TurbineManifold",
+   "meshname": "J2-TurbineManifold"
+ },
+ {
+   "id": "1.2.1.11",
+   "parent": "1.2.1",
+   "description": "J2-TurboPumps",
+   "meshname": "J2-TurboPumps"
+ },
+ {
+   "id": "1.2.1.12",
+   "parent": "1.2.1",
+   "description": "J2-WiringHarness",
+   "meshname": "J2-WiringHarness"
+ },
+ {
+   "id": "1.2.2.1",
+   "parent": "1.2.2",
+   "description": "S2IntStage-Body",
+   "meshname": "S2IntStage-Body"
+ },
+ {
+   "id": "1.2.2.2",
+   "parent": "1.2.2",
+   "description": "S2IntStage-Interior",
+   "meshname": "S2IntStage-Interior"
+ },
+ {
+   "id": "1.2.2.3",
+   "parent": "1.2.2",
+   "description": "S2IntStage-Ribs",
+   "meshname": "S2IntStage-Ribs"
+ },
+ {
+   "id": "1.2.2.4",
+   "parent": "1.2.2",
+   "description": "S2IntStage-Stringers",
+   "meshname": "S2IntStage-Stringers"
+ },
+ {
+   "id": "1.2.3.1",
+   "parent": "1.2.3",
+   "description": "SII-Body",
+   "meshname": "SII-Body"
+ },
+ {
+   "id": "1.2.3.2",
+   "parent": "1.2.3",
+   "description": "SII-FuelLines",
+   "meshname": "SII-FuelLines"
+ },
+ {
+   "id": "1.2.3.3",
+   "parent": "1.2.3",
+   "description": "SII-Griblies",
+   "meshname": "SII-Griblies"
+ },
+ {
+   "id": "1.2.3.4",
+   "parent": "1.2.3",
+   "description": "SII-Heatshield",
+   "meshname": "SII-Heatshield"
+ },
+ {
+   "id": "1.2.3.5",
+   "parent": "1.2.3",
+   "description": "SII-Interior",
+   "meshname": "SII-Interior"
+ },
+ {
+   "id": "1.2.3.6",
+   "parent": "1.2.3",
+   "description": "SII-Rear",
+   "meshname": "SII-Rear"
+ },
+ {
+   "id": "1.2.3.7",
+   "parent": "1.2.3",
+   "description": "SII-Ribs",
+   "meshname": "SII-Ribs"
+ },
+ {
+   "id": "1.2.3.8",
+   "parent": "1.2.3",
+   "description": "SII-Stringers",
+   "meshname": "SII-Stringers"
+ },
+ {
+   "id": "1.2.3.9",
+   "parent": "1.2.3",
+   "description": "SII-Struts",
+   "meshname": "SII-Struts"
+ },
+ {
+   "id": "1.2.3.10",
+   "parent": "1.2.3",
+   "description": "SII-Tank",
+   "meshname": "SII-Tank"
+ },
+ {
+   "id": "1.3.1.1",
+   "parent": "1.3.1",
+   "description": "ASA-Fairing",
+   "meshname": "ASA-Fairing"
+ },
+ {
+   "id": "1.3.1.2",
+   "parent": "1.3.1",
+   "description": "ASA-Griblies",
+   "meshname": "ASA-Griblies"
+ },
+ {
+   "id": "1.3.1.3",
+   "parent": "1.3.1",
+   "description": "ASA-Interior",
+   "meshname": "ASA-Interior"
+ },
+ {
+   "id": "1.3.2.1",
+   "parent": "1.3.2",
+   "description": "S-IVB-APS",
+   "meshname": "S-IVB-APS"
+ },
+ {
+   "id": "1.3.2.2",
+   "parent": "1.3.2",
+   "description": "S-IVB-Body",
+   "meshname": "S-IVb-Body"
+ },
+ {
+   "id": "1.3.2.3",
+   "parent": "1.3.2",
+   "description": "S-IVB-Griblies",
+   "meshname": "S-IVB-Griblies"
+ },
+ {
+   "id": "1.3.2.4",
+   "parent": "1.3.2",
+   "description": "S-IVB-Griblies-C",
+   "meshname": "S-IVB-Griblies-C"
+ },
+ {
+   "id": "1.3.2.5",
+   "parent": "1.3.2",
+   "description": "S-IVB-InnerGriblies",
+   "meshname": "S-IVb-InnerGriblies"
+ },
+ {
+   "id": "1.3.2.6",
+   "parent": "1.3.2",
+   "description": "S-IVB-Interior",
+   "meshname": "S-IVb-Interior"
+ },
+ {
+   "id": "1.3.2.7",
+   "parent": "1.3.2",
+   "description": "S-IVB-Ribs",
+   "meshname": "S-IVB-Ribs"
+ },
+ {
+   "id": "1.3.2.8",
+   "parent": "1.3.2",
+   "description": "S-IVB-Stringers",
+   "meshname": "S-IVb-Stringers"
+ },
+ {
+   "id": "1.3.2.9",
+   "parent": "1.3.2",
+   "description": "S-IVB-Tank",
+   "meshname": "S-IVB-Tank"
+ },
+ {
+   "id": "1.3.2.10",
+   "parent": "1.3.2",
+   "description": "S-IVB-TankRear",
+   "meshname": "S-IVB-TankRear"
+ },
+ {
+   "id": "1.3.2.11",
+   "parent": "1.3.2",
+   "description": "S-IVB-ThrustStructure",
+   "meshname": "S-IVB-ThrustStructure"
+ },
+ {
+   "id": "1.3.3.1",
+   "parent": "1.3.3",
+   "description": "S-IVB-J2-CombustionChamber",
+   "meshname": "S-IVB-J2-CombustionChamber"
+ },
+ {
+   "id": "1.3.3.2",
+   "parent": "1.3.3",
+   "description": "S-IVB-J2-ControlPackage",
+   "meshname": "S-IVB-J2-ControlPackage"
+ },
+ {
+   "id": "1.3.3.3",
+   "parent": "1.3.3",
+   "description": "S-IVB-J2-CoolantLines",
+   "meshname": "S-IVB-J2-CoolantLines"
+ },
+ {
+   "id": "1.3.3.4",
+   "parent": "1.3.3",
+   "description": "S-IVB-J2-EngineBell",
+   "meshname": "S-IVB-J2-EngineBell"
+ },
+ {
+   "id": "1.3.3.5",
+   "parent": "1.3.3",
+   "description": "S-IVB-J2-FuelLines",
+   "meshname": "S-IVB-J2-FuelLines"
+ },
+ {
+   "id": "1.3.3.6",
+   "parent": "1.3.3",
+   "description": "S-IVB-J2-Interior",
+   "meshname": "S-IVB-J2-Interior"
+ },
+ {
+   "id": "1.3.3.7",
+   "parent": "1.3.3",
+   "description": "S-IVB-J2-Nozzle",
+   "meshname": "S-IVB-J2-Nozzle"
+ },
+ {
+   "id": "1.3.3.8",
+   "parent": "1.3.3",
+   "description": "S-IVB-J2-StartTank",
+   "meshname": "S-IVB-J2-StartTank"
+ },
+ {
+   "id": "1.3.3.9",
+   "parent": "1.3.3",
+   "description": "S-IVB-J2-TurbineExhaust",
+   "meshname": "S-IVB-J2-TurbineExhaust"
+ },
+ {
+   "id": "1.3.3.10",
+   "parent": "1.3.3",
+   "description": "S-IVB-J2-TurbineManifold",
+   "meshname": "S-IVB-J2-TurbineManifold"
+ },
+ {
+   "id": "1.3.3.11",
+   "parent": "1.3.3",
+   "description": "S-IVB-J2-TurboPumps",
+   "meshname": "S-IVB-J2-TurboPumps"
+ },
+ {
+   "id": "1.3.3.12",
+   "parent": "1.3.3",
+   "description": "S-IVB-J2-WiringHarness",
+   "meshname": "S-IVB-J2-WiringHarness"
+ },
+ {
+   "id": "1.4.1.1",
+   "parent": "1.4.1",
+   "description": "CSM-BPS",
+   "meshname": "CSM-BPS"
+ },
+ {
+   "id": "1.4.1.2",
+   "parent": "1.4.1",
+   "description": "CSM-Base",
+   "meshname": "CSM-Base"
+ },
+ {
+   "id": "1.4.1.3",
+   "parent": "1.4.1",
+   "description": "CSM-Body",
+   "meshname": "CSM-Body"
+ },
+ {
+   "id": "1.4.1.4",
+   "parent": "1.4.1",
+   "description": "CSM-Engine",
+   "meshname": "CSM-Engine"
+ },
+ {
+   "id": "1.4.1.5",
+   "parent": "1.4.1",
+   "description": "CSM-Griblies",
+   "meshname": "CSM-Griblies"
+ },
+ {
+   "id": "1.4.1.6",
+   "parent": "1.4.1",
+   "description": "CSM-Radiators",
+   "meshname": "CSM-Radiators"
+ },
+ {
+   "id": "1.4.1.7",
+   "parent": "1.4.1",
+   "description": "CSM-ThrustStructure",
+   "meshname": "CSM-ThrustStructure"
+ },
+ {
+   "id": "1.4.1.8",
+   "parent": "1.4.1",
+   "description": "CSM-Window",
+   "meshname": "CSM-Window"
+ },
+ {
+   "id": "1.4.2.1",
+   "parent": "1.4.2",
+   "description": "LES-Frame",
+   "meshname": "LES-Frame"
+ },
+ {
+   "id": "1.4.2.2",
+   "parent": "1.4.2",
+   "description": "LES-Griblies",
+   "meshname": "LES-Griblies"
+ },
+ {
+   "id": "1.4.2.3",
+   "parent": "1.4.2",
+   "description": "LES-Int",
+   "meshname": "LES-Int"
+ },
+ {
+   "id": "1.4.2.4",
+   "parent": "1.4.2",
+   "description": "LES-Mount",
+   "meshname": "LES-Mount"
+ },
+ {
+   "id": "1.4.2.5",
+   "parent": "1.4.2",
+   "description": "LES-Rockets",
+   "meshname": "LES-Rockets"
+ },
+ {
+   "id": "1.4.2.6",
+   "parent": "1.4.2",
+   "description": "LES-Tower",
+   "meshname": "LES-Tower"
+ }
+]}
